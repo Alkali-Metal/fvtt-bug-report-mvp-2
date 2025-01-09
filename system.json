@@ -1,0 +1,22 @@
+{
+	"id": "fvttmvp2",
+	"title": "fvttmvp2",
+	"description": "",
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": 13,
+		"verified": 13,
+		"maximum": 13
+	},
+	"esmodules": [
+		"module/main.mjs"
+	],
+	"documentTypes": {
+		"Actor": {
+			"hero": {}
+		},
+		"Item": {
+			"weapon": {}
+		}
+	}
+}
