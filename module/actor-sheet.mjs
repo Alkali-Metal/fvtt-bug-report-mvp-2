@@ -15,3 +15,18 @@ export class ExtendedActorSheet extends HandlebarsApplicationMixin(ActorSheetV2)
 		}
 	};
 };
+
+export class ExtendedActorSheet2 extends HandlebarsApplicationMixin(ActorSheetV2) {
+	static DEFAULT_OPTIONS = {
+		position: {
+			// width: `auto`,
+			height: `auto`,
+		},
+	};
+
+	static PARTS = {
+		content: {
+			template: `systems/fvttmvp2/templates/hello.hbs`
+		}
+	};
+};
